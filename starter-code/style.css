@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 html {
   background: #f2f1f4;
   color: #19171c;
@@ -15,9 +19,65 @@ header {
 .tagline {
   font-family: "Gotham SSm A","Gotham SSm B",Arial,sans-serif;
   font-size: 18px;
-  width: 600px;
+  width: auto;
 }
 
 .logo img {
   width: 60px;
+}
+
+
+
+h2{
+  position: absolute;
+  bottom: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: white;
+  opacity: 0.6;
+}
+
+.image1{
+  width: 100%;
+  padding-top: 100%;
+  background: url(https://imgix.kitcdn.se/https%3A%2F%2Fstatic.kitcdn.se%2Fcws%2F2017%2F11%2F0d0bef72ade78fa0bb75b396a70189b8_1509714327577.png?fit=crop&h=840&ixlib=php-1.1.0&w=840&s=f70fae5cf595402898938044ae25c789);
+  background-size: cover;
+  position: relative;
+
+  /*border: 10px;*/
+}
+
+.image2{
+  width: 100%;
+  padding-top: 100%;
+  background: url(https://imgix.kitcdn.se/https%3A%2F%2Fstatic.kitcdn.se%2Fcws%2F2017%2F11%2F42e95f0a5b5717dd5b0072de3f793145_1510060961922.jpg?fit=crop&h=840&ixlib=php-1.1.0&w=840&s=1ce282f7dca5c29f819e838022458ae5);
+  background-size: cover;
+  position: relative;*/
+}
+
+.image3{
+  width: 100%;
+  padding-top: 100%;
+  background: url(https://imgix.kitcdn.se/https%3A%2F%2Fstatic.kitcdn.se%2Fcws%2F2017%2F11%2Fcdca21ef7e121ffc9476cb269507d565_1510060997865.jpg?fit=crop&h=840&ixlib=php-1.1.0&w=840&s=c61d888a144d69196cf58ae276fb6ce2);
+  background-size: cover;
+  position: relative;*/
+}
+
+.a-container{
+  float: left;
+  padding: 20px;
+  width: 100%;
+  
+}
+
+@media (max-width: 767px) {
+  .a-container{
+    width: 100%;
+}
+}
+
+@media (min-width: 767px) {
+  .a-container {
+    width: 33%;
+  }
 }
